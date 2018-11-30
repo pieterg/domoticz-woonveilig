@@ -6,7 +6,7 @@
     <params>
         <param field="Address" label="IP Address" width="200px" required="true" default=""/>
         <param field="Username" label="Username" width="150px" required="true" default=""/>
-        <param field="Password" label="Password" width="150px" required="true" default=""/>
+        <param field="Password" label="Password" width="150px" required="true" default="" password="true"/>
         <param field="Mode6" label="Debug" width="75px">
             <options>
                 <option label="True" value="Debug" default="true"/>
